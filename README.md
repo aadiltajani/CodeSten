@@ -17,12 +17,12 @@ Right now it is working on audio files and any audio file can be given as input 
 
 
 # Modules Implemented
--Read Audio File (readaudio.py)
--Speech to Text (speechtotext.py)
--Sentiment Analysis (sentimentanalysis.py)
--Emotion Analysis
--Keyword Extraction
--Word Count
+- Read Audio File (readaudio.py)
+- Speech to Text (speechtotext.py)
+- Sentiment Analysis (sentimentanalysis.py)
+- Emotion Analysis
+- Keyword Extraction
+- Word Count
 
 # Our Dataset: 
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
