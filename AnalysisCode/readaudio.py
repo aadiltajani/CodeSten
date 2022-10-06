@@ -1,5 +1,6 @@
 from pydub import AudioSegment
 import os
+from pydub.utils import make_chunks
 
 script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
 
