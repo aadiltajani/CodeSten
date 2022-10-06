@@ -19,7 +19,7 @@ Right now it is working on audio files and any audio file can be given as input 
 
 
 # Modules Implemented
-- Read Audio File (readaudio.py)
+- Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
 - Speech to Text (speechtotext.py)
 - Sentiment Analysis (sentimentanalysis.py)
 - Emotion Analysis (emotionanalysis.py)
