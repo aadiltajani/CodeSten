@@ -13,5 +13,5 @@ def audioinput(file):
         return "valid audio file. read successful !"
 
 
-print(audioinput(os.path.join(script_dir, r"data\audiofiles\data_audio_agent_0002f70f7386445b.wav")))
-print(audioinput(os.path.join(script_dir, r"data\audiofiles\data_audio_caller_0002f70f7386445b.wav")))
+print(audioinput(os.path.join(script_dir, r"../data/audiofiles/data_audio_agent_0002f70f7386445b.wav")))
+print(audioinput(os.path.join(script_dir, r"../data/audiofiles/data_audio_caller_0002f70f7386445b.wav")))
