@@ -1,4 +1,7 @@
 from pydub import AudioSegment
+import os
+
+script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
 
 
 def audioinput(file):
@@ -10,5 +13,5 @@ def audioinput(file):
         return "valid audio file. read successful !"
 
 
-print(audioinput(r'C:\Users\asus\PycharmProjects\CodeSten\data\data_audio_agent_0002f70f7386445b.wav'))
-print(audioinput(r'C:\Users\asus\PycharmProjects\CodeSten\data\data_audio_agent_0002f70f7386445b.wav'))
+print(audioinput(os.path.join(script_dir, r"data\audiofiles\data_audio_agent_0002f70f7386445b.wav")))
+print(audioinput(os.path.join(script_dir, r"data\audiofiles\data_audio_caller_0002f70f7386445b.wav")))
