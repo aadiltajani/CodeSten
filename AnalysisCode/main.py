@@ -1,6 +1,6 @@
 # import sys
 # sys.path.append('../')
-from AnalysisCode.emotionanalysis import emotion_detection
+from emotionanalysis import emotion_detection
 from readaudio import audioinput
 from speechtotext import speech_to_text
 

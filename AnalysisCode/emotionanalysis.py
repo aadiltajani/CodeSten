@@ -15,7 +15,6 @@ def emotion_detection(text):
     print(emotionval)
 
 
-
 text_dic = speech_to_text(r'../data/chunks')
 text = ''
 for i in text_dic.values():
