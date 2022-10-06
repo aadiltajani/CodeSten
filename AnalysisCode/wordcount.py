@@ -1,7 +1,6 @@
 from speechtotext import speech_to_text_
 
 
-### For trial just provided user manual data to check if working or not
 def wordcount(text_dic):
     number_of_words_1 = 0
     countval = 0
