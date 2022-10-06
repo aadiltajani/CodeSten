@@ -22,7 +22,7 @@ Right now it is working on audio files and any audio file can be given as input 
 - Read Audio File (readaudio.py)
 - Speech to Text (speechtotext.py)
 - Sentiment Analysis (sentimentanalysis.py)
-- Emotion Analysis
+- Emotion Analysis (emotionanalysis.py)
 - Keyword Extraction
 - Word Count
 
