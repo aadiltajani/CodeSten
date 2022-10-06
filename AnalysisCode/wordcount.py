@@ -8,6 +8,5 @@ def wordcount(text_dic):
     print(countval)
     return countval
 
-
 text_dict = {1: 'This', 2: 'is', 3: 'Earth'}
 x = wordcount(text_dict)
