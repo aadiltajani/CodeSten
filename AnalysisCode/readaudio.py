@@ -1,3 +1,4 @@
+import shutil
 from pydub import AudioSegment
 import os
 from pydub.utils import make_chunks
@@ -11,6 +12,9 @@ def trim_audio_file(path, folder_name):
     chunk_length_ms = 10000  # pydub calculates in millisec
     chunks = make_chunks(myaudio, chunk_length_ms)  # Make chunk
     
+    if os.path.isdir(folder_name):
+        shutil.rmtree(folder_name)
+
     
     os.mkdir(folder_name)
     for i, chunk in enumerate(chunks):
