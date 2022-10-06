@@ -11,6 +11,7 @@ CodeSten is Project1 for Group19 of CSC510 Software Engineering
 
 
 # How to run
+Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
 python AnalysisCode/main.py 
 or can be seen on github actions
 
@@ -20,11 +21,11 @@ Right now it is working on audio files and any audio file can be given as input 
 
 # Modules Implemented
 - Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
-- Speech to Text (speechtotext.py)
+- Speech to Text ([speechtotext.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/speechtotext.py))
 - Sentiment Analysis (sentimentanalysis.py)
-- Emotion Analysis (emotionanalysis.py)
+- Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
 - Keyword Extraction
-- Word Count
+- Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
 
 # Our Dataset: 
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
