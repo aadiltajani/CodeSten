@@ -2,21 +2,21 @@
 [![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering
-#Description
+# Description
 
 
-#Why to Use
+# Why to Use
 
 
-#How to run
+# How to run
 python AnalysisCode/main.py 
 or can be seen on github actions
 
-#Scope
+# Scope
 Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in .... function
 
 
-#Modules Implemented
+# Modules Implemented
 -Read Audio File (readaudio.py)
 -Speech to Text (speechtotext.py)
 -Sentiment Analysis (sentimentanalysis.py)
@@ -24,11 +24,11 @@ Right now it is working on audio files and any audio file can be given as input 
 -Keyword Extraction
 -Word Count
 
-#Our Dataset: 
+# Our Dataset: 
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
 
 
-#Requirements:
+# Requirements:
 Listed in Requirements.txt
 
 
