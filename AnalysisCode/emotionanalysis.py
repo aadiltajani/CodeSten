@@ -15,6 +15,16 @@ def emotion_detection(text):
     print(emotionval)
 
 
+    
+    max_key = max(emotionval, key=emotionval.get)
+    emotion = {}
+    emotion['possible_emotions'] = emotionval
+    emotion['emotion'] = max_key
+    # print("emotion_detection")
+    # print(emotion)
+    return emotion
+
+
 
 text_dic = speech_to_text(r'../data/chunks')
 text = ''
