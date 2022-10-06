@@ -1,7 +1,7 @@
 import text2emotion as te
 import nltk
 
-from speechtotext import speech_to_text_
+from speechtotext import speech_to_text
 
 nltk.download('omw-1.4')
 
