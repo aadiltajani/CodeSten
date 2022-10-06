@@ -15,8 +15,8 @@ def speech_to_text_(path):
                 # try converting it to text
                 try:
                     text = r.recognize_google(audio_listened, language='en-Us')
-                except sr.UnknownValueError as e:  # handling error if speech recognizer can't work on it
-                    print("Error:", str(e))
+                except sr.UnknownValueError as e:  # handling error if speech recognizer can't work on it (empty audio)
+                    # print("Error:", str(e))
                     finaltext[x] = "Error occurred"
                 else:
                     text = f"{text.capitalize()}. "
@@ -25,4 +25,4 @@ def speech_to_text_(path):
 
 
 script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
-print(speech_to_text_(os.path.join(script_dir, r"..\data\audiofiles\data_audio_agent_0002f70f7386445b.wav")))
+print(speech_to_text_(os.path.join(script_dir, r"..\data\chunks")))
