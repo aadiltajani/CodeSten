@@ -1,5 +1,7 @@
 # CodeSten
 [![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
+[![workflow](https://github.com/aadiltajani/CodeSten/actions/workflows/main.yml/badge.svg)](https://github.com/aadiltajani/CodeSten/actions)
+
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering
 # Description
