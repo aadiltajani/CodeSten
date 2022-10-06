@@ -26,7 +26,7 @@ def trim_audio_file(path):
 
 def audioinput(file):
     file = os.path.realpath(os.path.join(script_dir, file))
-    print(Path(file).exists(), Path(script_dir).exists())
+    print(Path(file).exists(),file, Path(script_dir).exists(),script_dir)
     a = AudioSegment.from_file(file)
     length_audio = round(len(a))
     if float(length_audio) == 0.0:
