@@ -2,12 +2,13 @@ import shutil
 from pydub import AudioSegment
 import os
 from pydub.utils import make_chunks
+from pathlib import Path
 
 script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
 
 
 def trim_audio_file(path):
-    path = os.path.join(script_dir, path)
+    # path = os.path.join(script_dir, path)
     folder_name = os.path.join(script_dir, r"../data/chunks")
     myaudio = AudioSegment.from_file(path, "wav")
     chunk_length_ms = 10000  # pydub calculates in millisec
@@ -24,7 +25,8 @@ def trim_audio_file(path):
 
 
 def audioinput(file):
-    file = os.path.join(script_dir, file)
+    file = os.path.realpath(os.path.join(script_dir, file))
+    print(Path(file).exists())
     a = AudioSegment.from_file(file)
     length_audio = round(len(a))
     if float(length_audio) == 0.0:
