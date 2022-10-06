@@ -1,17 +1,28 @@
 import os
 import speech_recognition as sr
-
 r = sr.Recognizer()
-
-
-def speech_to_text_(path):
-    with open(path, "rb") as f:
-        with sr.AudioFile(f) as source:
-            audio_listened = r.record(source)
-            # try converting it to text
-            text = r.recognize_google(audio_listened, language='en-Us')
-    return text
-
-
 script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
-print(speech_to_text_(os.path.join(script_dir, r"../data/audiofiles/data_audio_agent_0002f70f7386445b.wav")))
+
+
+def speech_to_text(path):
+    path = os.path.join(script_dir, path)
+    finaltext = {}
+    arr = os.listdir(path)
+    for x in arr:
+        xpath = os.path.join(path, x)
+        with open(xpath, "rb") as f:
+            with sr.AudioFile(f) as source:
+                audio_listened = r.record(source)
+                # try converting it to text
+                try:
+                    text = r.recognize_google(audio_listened, language='en-Us')
+                except sr.UnknownValueError as e:  # handling error if speech recognizer can't work on it (empty audio)
+                    # print("Error:", str(e))
+                    finaltext[x] = ""
+                else:
+                    text = f"{text.capitalize()}. "
+                    finaltext[x] = text
+    return finaltext
+
+
+# print(speech_to_text_(os.path.join(script_dir, r"..\data\chunks")))
