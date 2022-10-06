@@ -8,7 +8,7 @@ script_dir = os.path.dirname(__file__)  # abs path of current script needed to r
 
 
 def trim_audio_file(path):
-    # path = os.path.join(script_dir, path)
+    path = os.path.join(script_dir, path)
     folder_name = os.path.join(script_dir, r"../data/chunks")
     myaudio = AudioSegment.from_file(path, "wav")
     chunk_length_ms = 10000  # pydub calculates in millisec
