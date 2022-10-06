@@ -10,3 +10,9 @@ from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+def sentiment_scores(text):
+    if len(text) == 0:
+        sentiment_ = ""
+    else:
+        sid_obj = SentimentIntensityAnalyzer()
+        sentiment_dict = sid_obj.polarity_scores(text)
