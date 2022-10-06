@@ -1,11 +1,10 @@
 import os
 import speech_recognition as sr
-
 r = sr.Recognizer()
 script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
 
 
-def speech_to_text_(path):
+def speech_to_text(path):
     path = os.path.join(script_dir, path)
     finaltext = {}
     arr = os.listdir(path)
