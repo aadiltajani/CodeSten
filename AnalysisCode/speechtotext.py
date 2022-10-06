@@ -18,7 +18,7 @@ def speech_to_text(path):
                     text = r.recognize_google(audio_listened, language='en-Us')
                 except sr.UnknownValueError as e:  # handling error if speech recognizer can't work on it (empty audio)
                     # print("Error:", str(e))
-                    finaltext[x] = "Error occurred"
+                    finaltext[x] = ""
                 else:
                     text = f"{text.capitalize()}. "
                     finaltext[x] = text
