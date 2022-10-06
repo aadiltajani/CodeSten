@@ -1,7 +1,7 @@
 import text2emotion as te
 import nltk
 
-from speechtotext import speech_to_text_
+from speechtotext import speech_to_text
 
 nltk.download('omw-1.4')
 
@@ -16,7 +16,7 @@ def emotion_detection(text):
 
 
 
-text_dic = speech_to_text_('data/chunks')
+text_dic = speech_to_text(r'../data/chunks')
 text = ''
 for i in text_dic.values():
     text += ' ' + i
