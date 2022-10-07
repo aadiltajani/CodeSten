@@ -9,12 +9,12 @@ from keywordextract import getkewords
 
 print(audioinput(r"../data/audiofiles/data_audio_agent_0002f70f7386445b.wav"))
 text_dic = speech_to_text(r'../data/chunks')
-print('\nSpeech to text:',text_dic)
 
 text = ''
 for i in text_dic.values():
     text += ' ' + i
-print('\n', emotion_detection(text))
-print('\n', sentiment_scores(text))
-print('\n', getkewords(text))
-print('\nword count:', wordcount(text_dic))
+print('\nSpeech to text:', text)
+print('\nEmotion Analysis:', emotion_detection(text))
+print('\nSentiment Analysis:', sentiment_scores(text))
+print('\nKeywords:', getkewords(text))
+print('\nWord count:', wordcount(text_dic))
