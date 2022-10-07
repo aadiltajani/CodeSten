@@ -24,4 +24,10 @@ def getkewords(text):
         top=numOfKeywords,
         features=None,
         stopwords=data)
-
+    x = []
+    keywords = custom_kw_extractor.extract_keywords(text)
+    # print(keywords)
+    # print("--------")
+    for kw in keywords:
+        x.append(kw[0])
+    return x
