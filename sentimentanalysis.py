@@ -24,3 +24,12 @@ def sentiment_scores(text):
             sentiment = "Neutral"
         elif max_key == "pos":
             sentiment = "Positive"
+        else:
+            sentiment = "Negative"
+        sentiment_ = {}
+        sentiment_['possible_sentiment'] = sentiment_dict
+        sentiment_['sentiment'] = sentiment
+        sentiment_ = {}
+        sentiment_['possible_sentiment'] = sentiment_dict
+        sentiment_['sentiment'] = sentiment
+    return sentiment_
