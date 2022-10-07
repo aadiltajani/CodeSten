@@ -35,6 +35,7 @@ jobs:
       - name: Generate Document post commit
         run: |
           pip install -r requirements.txt
+          pip install jinja2
           pip install pdoc
           python -m pdoc ./AnalysisCode/* -o ./docs/page
       - name: Upload artifact
