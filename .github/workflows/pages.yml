@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Generate Document post commit
         run: |
-          pip install flask
+          pip install -r requirements.txt
           pip install pdoc
           python -m pdoc ./AnalysisCode/* -o ./docs/page
       - name: Upload artifact
