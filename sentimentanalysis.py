@@ -33,3 +33,9 @@ def sentiment_scores(text):
         sentiment_['possible_sentiment'] = sentiment_dict
         sentiment_['sentiment'] = sentiment
     return sentiment_
+
+# print(sentiment_scores("The Google Cloud Natural Language API can be used to reveal the structure and meaning 
+# of text via powerful machine learning models. You can use it to extract information about people, places, 
+# events and much more, mentioned in text documents, news articles or blog posts. You can use it to understand sentiment about 
+# your product on social media or parse intent from customer conversations happening in a call center or a messaging app. 
+# You can analyze text uploaded in your request or integrate with your document storage on Google Cloud Storage."))
