@@ -35,9 +35,8 @@ jobs:
       - name: Generate Document post commit
         run: |
           pip install -r requirements.txt
-          pip install jinja2
           pip install pdoc
-          python -m pdoc ./AnalysisCode/* -o ./docs/page
+          python -m pdoc ./AnalysisCode/main.py -o ./docs/page
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
