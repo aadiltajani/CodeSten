@@ -1,7 +1,7 @@
 # import all the libraries and packages
 import traceback
 import nltk
-from speechtotext import speech_to_text_
+# from speechtotext import speech_to_text
 
 nltk.download('stopwords')
 nltk.download('punkt')
