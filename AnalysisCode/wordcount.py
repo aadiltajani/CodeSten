@@ -1,4 +1,4 @@
-from speechtotext import speech_to_text_
+# from speechtotext import speech_to_text
 
 
 def wordcount(text_dic):
@@ -8,9 +8,9 @@ def wordcount(text_dic):
         word_list = i.split()
         number_of_words = len(word_list)
         countval += number_of_words
-    print(countval)
+    # print(countval)
     return countval
 
 
-text_dic = speech_to_text_('data/chunks')
-print(wordcount(text_dic))
+# text_dic = speech_to_text_]('data/chunks')
+# print(wordcount(text_dic))
