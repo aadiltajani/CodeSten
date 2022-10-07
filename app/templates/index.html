@@ -2,26 +2,23 @@
 <html lang="en">
   <head>
 
-    <title>Page Name - Squiz Matrix HTML Example</title>
+    <title>Audio Analyzer</title>
 
-  
-  </head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
 
   <body>
+    <h1> Audio Analyzer </h1>
+    <div class="container" >
     <form action="{{ url_for('analysis')}}" method=POST enctype="multipart/form-data">
         <input type="file" name="inp" id="inp" required="required" />
-        <button type="submit">Predict</button>
+        <button type="submit">Analyse</button>
     </form>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     {% autoescape false %}
     {{ analysis_text }}
     {% endautoescape %}
-
+  </div>
   </body>
   <script>
     document.getElementById("inp").accept = "audio/wav";
