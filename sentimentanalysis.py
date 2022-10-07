@@ -19,3 +19,8 @@ def sentiment_scores(text):
         del sentiment_dict['compound']  # we dont need compound sentiment value
         max_key = max(sentiment_dict, key=sentiment_dict.get)
         print(max_key)
+
+        if max_key == "neu":
+            sentiment = "Neutral"
+        elif max_key == "pos":
+            sentiment = "Positive"
