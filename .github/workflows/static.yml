@@ -35,12 +35,11 @@ jobs:
       - name: Generate Document post commit
         run: |
           pip install pdoc
-          python -m pdoc ./AnalysisCode/* -o ./AnalysisCode
+          python -m pdoc ./AnalysisCode/* -o ./docs/pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
-          path: './AnalysisCode'
+          path: './docs/pages'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
