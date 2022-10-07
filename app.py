@@ -1,3 +1,5 @@
+import sys
+sys.path.append('AnalysisCode/')
 from fileinput import filename
 from flask import Flask, render_template, request
 from emotionanalysis import emotion_detection
