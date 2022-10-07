@@ -16,3 +16,5 @@ def sentiment_scores(text):
     else:
         sid_obj = SentimentIntensityAnalyzer()
         sentiment_dict = sid_obj.polarity_scores(text)
+        del sentiment_dict['compound']  # we dont need compound sentiment value
+
