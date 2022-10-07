@@ -34,7 +34,7 @@ def audioinput(file):
     else:
         print('Audio file found...dividing in chunks')
         trim_audio_file(file)
-        return "valid audio file. read successful !"
+        return "Valid Audio File. Read Successful !"
 
 
 # print(audioinput(os.path.join(script_dir, r"../data/audiofiles/data_audio_agent_0002f70f7386445b.wav")))
