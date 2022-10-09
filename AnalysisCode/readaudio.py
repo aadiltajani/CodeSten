@@ -10,7 +10,7 @@ script_dir = os.path.dirname(__file__)
 
 def trim_audio_file(path):
     """
-    function to divide audio file into smaller chunks 
+    function to divide audio file into smaller chunks
     to be used later for analysis
     """
     path = os.path.join(script_dir, path)
