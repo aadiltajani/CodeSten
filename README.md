@@ -1,4 +1,5 @@
-# CodeSten
+![Untitled Notebook (1)-41](https://user-images.githubusercontent.com/112002096/194784570-00e5f8fb-0f5b-4f0c-ba4a-f0651b5b2e13.jpg)
+
 [![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
 [![workflow](https://github.com/aadiltajani/CodeSten/actions/workflows/main.yml/badge.svg)](https://github.com/aadiltajani/CodeSten/actions)
 [![codecov](https://codecov.io/gh/aadiltajani/CodeSten/branch/main/graph/badge.svg?token=A4xK3vJeTW)](https://codecov.io/gh/aadiltajani/CodeSten)
