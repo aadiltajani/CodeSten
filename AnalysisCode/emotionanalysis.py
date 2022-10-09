@@ -16,7 +16,8 @@ def emotion_detection(text):
 
     # need to check if there is no emotion detected
     if (emotionval.get('Happy') == 0) and (emotionval.get('Sad') == 0) and (
-            emotionval.get('Fear') == 0) and (emotionval.get('Angry') == 0) and (
+            emotionval.get('Fear') == 0) and (emotionval.get('Angry') == 0) \
+            and (
             (emotionval.get('Surprise') == 0)):
         max_key = "No emotion detected"
         # print("yes")
@@ -27,8 +28,6 @@ def emotion_detection(text):
     # print("emotion_detection")
     # print(emotion)
     return emotion
-
-
 
 # text_dic = speech_to_text(r'../data/chunks')
 # text = ''

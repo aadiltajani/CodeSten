@@ -1,11 +1,12 @@
 import sys
-sys.path.append('./AnalysisCode')
+
 from emotionanalysis import emotion_detection
 from readaudio import audioinput
 from speechtotext import speech_to_text
 from wordcount import wordcount
 from sentimentanalysis import sentiment_scores
 from keywordextract import getkewords
+sys.path.append('./AnalysisCode')
 
 print(audioinput(r"../data/audiofiles/data_audio_agent_0002f70f7386445b.wav"))
 text_dic = speech_to_text(r'../data/chunks')

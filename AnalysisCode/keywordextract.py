@@ -1,9 +1,10 @@
 import yake
-from yake.highlight import TextHighlighter
+# from yake.highlight import TextHighlighter
 import os
 # from speechtotext import speech_to_text_
 
-with open(os.path.join(os.path.dirname(__file__), r"../data/stopwordlist/stopwords_en.txt"), "r") as file:
+with open(os.path.join(os.path.dirname(__file__),
+                       r"../data/stopwordlist/stopwords_en.txt"), "r") as file:
     data = file.read()
     data = data.lower().split('\n')
 

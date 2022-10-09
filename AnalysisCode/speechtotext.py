@@ -1,7 +1,8 @@
 import os
 import speech_recognition as sr
 r = sr.Recognizer()
-script_dir = os.path.dirname(__file__)  # abs path of current script needed to read audio file
+script_dir = os.path.dirname(__file__)
+# abs path of current script needed to read audio file
 
 
 def speech_to_text(path):
@@ -16,7 +17,9 @@ def speech_to_text(path):
                 # try converting it to text
                 try:
                     text = r.recognize_google(audio_listened, language='en-Us')
-                except sr.UnknownValueError as e:  # handling error if speech recognizer can't work on it (empty audio)
+                # handling error if speech recognizer
+                # can't work on it (empty audio)
+                except sr.UnknownValueError:
                     # print("Error:", str(e))
                     finaltext[x] = ""
                 else:

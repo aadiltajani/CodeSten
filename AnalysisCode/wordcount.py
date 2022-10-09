@@ -2,7 +2,6 @@
 
 
 def wordcount(text_dic):
-    number_of_words_1 = 0
     countval = 0
     for i in text_dic.values():
         word_list = i.split()
