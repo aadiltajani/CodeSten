@@ -9,6 +9,9 @@ script_dir = os.path.dirname(__file__)
 
 
 def trim_audio_file(path):
+    """
+    function to divide audio file into smaller chunks to be used later for analysis
+    """
     path = os.path.join(script_dir, path)
     folder_name = os.path.join(script_dir, r"../data/chunks")
     myaudio = AudioSegment.from_file(path, "wav")
@@ -26,6 +29,9 @@ def trim_audio_file(path):
 
 
 def audioinput(file):
+    """
+    function to check and read audio file provided
+    """
     if isinstance(file, str):
         file = os.path.realpath(os.path.join(script_dir, file))
     a = AudioSegment.from_file(file)
