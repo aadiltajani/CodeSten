@@ -4,6 +4,9 @@
 [![codecov](https://codecov.io/gh/aadiltajani/CodeSten/branch/main/graph/badge.svg?token=A4xK3vJeTW)](https://codecov.io/gh/aadiltajani/CodeSten)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering
+
+[![Watch the video](https://img.youtube.com/vi/yO7Ruh07uh8/hqdefault.jpg)](https://www.youtube.com/watch?v=yO7Ruh07uh8&ab_channel=AadilTajani)
+
 # Description
 Document Generated: https://aadiltajani.github.io/CodeSten/
 
