@@ -30,7 +30,8 @@ def emotion_detection(text):
     else:
         max_key = max(emotionval, key=emotionval.get)
     """
-    output all percentage of emotion values and the final detected emotion as well
+    output all percentage of emotion values and 
+    the final detected emotion as well
     """
     emotion = {'possible_emotions': emotionval, 'emotion': max_key}
     # print("emotion_detection")
