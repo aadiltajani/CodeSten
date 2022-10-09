@@ -18,3 +18,10 @@
                           a) Fear
                           b) Surprise
                           c) No Emotion
+
+
+**5.** _readaudio.py_ - This python file reads chunks of audio.
+
+
+
+
