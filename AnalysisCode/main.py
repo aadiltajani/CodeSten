@@ -1,3 +1,6 @@
+"""
+main file which calls all the modules
+"""
 import sys
 sys.path.append('./AnalysisCode')
 from emotionanalysis import emotion_detection  # noqa: E402
