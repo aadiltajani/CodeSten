@@ -13,6 +13,9 @@ stop_words = set(stopwords.words('english'))
 
 
 def sentiment_scores(text):
+    """
+    function to detect speaker sentiment from positive, negative and neutral
+    """
     if len(text) == 0:
         sentiment_ = ""
     else:
