@@ -23,9 +23,9 @@ def emotion_detection(text):
             emotionval.get('Fear') == 0) and (emotionval.get('Angry') == 0) \
             and (
             (emotionval.get('Surprise') == 0)):
-    """
-    check if emotion is detected and output accordingly
-    """
+        """
+        check if emotion is detected and output accordingly
+        """
         max_key = "No emotion detected"
     else:
         max_key = max(emotionval, key=emotionval.get)
