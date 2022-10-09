@@ -1,11 +1,11 @@
 # CodeSten
 [![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
 [![workflow](https://github.com/aadiltajani/CodeSten/actions/workflows/main.yml/badge.svg)](https://github.com/aadiltajani/CodeSten/actions)
-
+[![codecov](https://codecov.io/gh/aadiltajani/CodeSten/branch/main/graph/badge.svg?token=A4xK3vJeTW)](https://codecov.io/gh/aadiltajani/CodeSten)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering
 # Description
-
+Document Generated: https://aadiltajani.github.io/CodeSten/
 
 # Why to Use
 

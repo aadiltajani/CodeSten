@@ -1,5 +1,5 @@
-# import sys
-# sys.path.append('../')
+import sys
+sys.path.append('./AnalysisCode')
 from emotionanalysis import emotion_detection
 from readaudio import audioinput
 from speechtotext import speech_to_text
