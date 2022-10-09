@@ -6,6 +6,9 @@ script_dir = os.path.dirname(__file__)
 
 
 def speech_to_text(path):
+    """
+    function to get text transcription of the audio file
+    """
     path = os.path.join(script_dir, path)
     finaltext = {}
     arr = os.listdir(path)
