@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/aadiltajani/CodeSten/branch/main/graph/badge.svg?token=A4xK3vJeTW)](https://codecov.io/gh/aadiltajani/CodeSten)
 ![](https://img.shields.io/badge/OS-Linux-Python_informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 [![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)](https://www.python.org/download/releases/3.0/)
+[![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)](https://www.jetbrains.com/idea/)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering
 
