@@ -29,7 +29,6 @@ def emotion_detection(text):
         max_key = "No emotion detected"
     else:
         max_key = max(emotionval, key=emotionval.get)
-    
     emotion = {'possible_emotions': emotionval, 'emotion': max_key}
     """
     output all percentage of emotion values and
