@@ -38,6 +38,10 @@ jobs:
           
       - name: Run main.py
         run: python ./AnalysisCode/main.py
+      - name: Run style and format checkers
+        run: |
+          python -m pip install flake8
+          flake8 ./AnalysisCode/
       - name: Generate Report
         run: |
           pip install coverage
