@@ -1,5 +1,5 @@
 """
-# This is the Auto Generated Document for our project CODESTEN 
+# This is the Auto Generated Document for our project CODESTEN
 You can go through the following modules:
 1) main:
 https://aadiltajani.github.io/CodeSten/main.html
