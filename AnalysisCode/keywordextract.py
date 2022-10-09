@@ -11,6 +11,9 @@ with open(os.path.join(os.path.dirname(__file__),
 
 # from Analysis import stopwords
 def getkewords(text):
+    """
+    function to get main keywords from the conversation
+    """
     language = "en"
     max_ngram_size = 2
     deduplication_thresold = 0.9
