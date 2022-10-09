@@ -44,6 +44,7 @@ Listed in Requirements.txt
 # Future Work: 
 - Implement Video emotion analysis and combine with audio analysis done here
 - Silence detection
+- Determine Speech Rate of speaker (slow, medium, fast)
 - Match the accuracy of current solution with the transcript provided in dataset listed above
 - Give transcript with time stamp and merge transcripts of both sides to show a converstaion in text
 - Do it for live audio/video file
