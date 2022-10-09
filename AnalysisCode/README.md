@@ -22,6 +22,9 @@
 
 **5.** _readaudio.py_ - This python file reads chunks of audio.
 
+**6.** _wordcount.py_ - Count words in text
+
+**7.** _main.py_ - This is the main python file where every necessary package is imported and final output after audio analysis is printed.
 
 
 
