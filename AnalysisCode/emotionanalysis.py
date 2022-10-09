@@ -18,22 +18,23 @@ def emotion_detection(text):
     # print(emotionval)
 
     # need to check if there is no emotion detected
-    """
-    check if emotion is detected and output accordingly
-    """
+
     if (emotionval.get('Happy') == 0) and (emotionval.get('Sad') == 0) and (
             emotionval.get('Fear') == 0) and (emotionval.get('Angry') == 0) \
             and (
             (emotionval.get('Surprise') == 0)):
+    """
+    check if emotion is detected and output accordingly
+    """
         max_key = "No emotion detected"
-        # print("yes")
     else:
         max_key = max(emotionval, key=emotionval.get)
+    
+    emotion = {'possible_emotions': emotionval, 'emotion': max_key}
     """
     output all percentage of emotion values and
     the final detected emotion as well
     """
-    emotion = {'possible_emotions': emotionval, 'emotion': max_key}
     # print("emotion_detection")
     # print(emotion)
     return emotion
