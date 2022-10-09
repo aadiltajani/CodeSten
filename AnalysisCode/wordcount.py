@@ -2,6 +2,9 @@
 
 
 def wordcount(text_dic):
+    """
+    function to get word counts from the conversation
+    """
     countval = 0
     for i in text_dic.values():
         word_list = i.split()
