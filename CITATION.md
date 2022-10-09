@@ -2,6 +2,7 @@
 
 ## CSC510 Group 22 Project1- Codesten
 
+[![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
 
 ### Authors
 
