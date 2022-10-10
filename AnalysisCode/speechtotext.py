@@ -1,4 +1,5 @@
 # __author__      = "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
+# __copyright__      = "Open source libraries"
 import os
 import speech_recognition as sr
 r = sr.Recognizer()
