@@ -12,7 +12,7 @@ from sentimentanalysis import sentiment_scores  # noqa: E402
 from keywordextract import getkewords  # noqa: E402
 
 print("Testing all functions on different test audios...")
-for f in listdir(r"../data/test_data"):
+for f in listdir(r"./data/test_data"):
     try :
         audioinput(r"../data/test_data/"+f)
         text_dic = speech_to_text(r'../data/chunks')
