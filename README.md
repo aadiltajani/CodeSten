@@ -128,6 +128,6 @@ Kaustubh Deshpande: [Github](https://github.com/KaustubhKael)
 
 # For Support
 
-Dhruvish Patel: [Email](dhruvishpatel02@gmail.com)
+Dhruvish Patel: [Email](mailto:dhruvishpatel02@gmail.com)
 
-Aadil Tajani: [Email](tajani.aadil@gmail.com)
+Aadil Tajani: [Email](mailto:tajani.aadil@gmail.com)
