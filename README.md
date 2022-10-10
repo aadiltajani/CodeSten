@@ -71,8 +71,25 @@ def sentiment_scores(text):
 ```
 
 - Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
+
+Function to detect speaker emotion There are mainly 5 emotions: happy, sad, fear, angry, and surprise. This function takes text transcript as input and uses open source package text2emotion to determine emotion from text which can be helpful in certain analysis:
+```bash
+def emotion_detection(text):
+```
+
 - Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
+
+Function to get main keywords from the conversation This function takes all the keywords from text input and filters them by removing all the useless stopwords and gives us important keywords from the conversation and we can get imp points from the conversation:
+```bash
+def getkewords(text):
+```
+
 - Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
+
+Function to get word counts from the conversation. It takes text as input and counts the number of words which can be later used to determine speech rate of speaker as low/medium/fast or for some statistical analysis:
+```bash
+def wordcount(text_dic):
+```
 
 # Our Dataset
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
