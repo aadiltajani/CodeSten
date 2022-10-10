@@ -13,13 +13,13 @@ CodeSten is Project1 for Group19 of CSC510 Software Engineering.
 
 CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters.
 
+
 Below is a short video demonstrating the use and importance of CodeSten:
 
 
 [![Watch the video](https://img.youtube.com/vi/yO7Ruh07uh8/hqdefault.jpg)](https://www.youtube.com/watch?v=yO7Ruh07uh8&ab_channel=AadilTajani)
 
 Document Generated: https://aadiltajani.github.io/CodeSten/
-
 
 # How to run
 Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
@@ -38,12 +38,8 @@ Right now it is working on audio files and any audio file can be given as input 
 - Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
 - Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
 
-# Our Dataset: 
+# Our Dataset
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
-
-
-# Requirements:
-Listed in Requirements.txt
 
 
 # Future Work: 
