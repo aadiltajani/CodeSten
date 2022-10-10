@@ -8,6 +8,8 @@
 [![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=FF0000)](https://www.python.org/download/releases/3.0/)
 [![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=FFA500)](https://www.jetbrains.com/idea/)
 [![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ffffff)](https://www.gnu.org/software/bash/)
+![Lines of code](https://img.shields.io/tokei/lines/github/aadiltajani/CodeSten)
+![GitHub contributors](https://img.shields.io/github/contributors/aadiltajani/CodeSten)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
 
