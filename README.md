@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/545685037.svg)](https://zenodo.org/badge/latestdoi/545685037)
 [![workflow](https://github.com/aadiltajani/CodeSten/actions/workflows/main.yml/badge.svg)](https://github.com/aadiltajani/CodeSten/actions)
 [![codecov](https://codecov.io/gh/aadiltajani/CodeSten/branch/main/graph/badge.svg?token=A4xK3vJeTW)](https://codecov.io/gh/aadiltajani/CodeSten)
-[![](https://img.shields.io/badge/License-MIT-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=A020F0)](https://github.com/aadiltajani/CodeSten/blob/main/LICENSE)
+[![](https://img.shields.io/badge/License-GNU-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=A020F0)](https://github.com/aadiltajani/CodeSten/blob/main/LICENSE)
 ![](https://img.shields.io/badge/OS-Linux-Python_informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=0000FF)
 [![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=FF0000)](https://www.python.org/download/releases/3.0/)
 [![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=FFA500)](https://www.jetbrains.com/idea/)
