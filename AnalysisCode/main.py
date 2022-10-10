@@ -1,4 +1,5 @@
-# __author__      = "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
+# __author__      =
+# "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
 # __copyright__      = "Open source libraries"
 import sys
 sys.path.append('./AnalysisCode')
