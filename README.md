@@ -20,8 +20,6 @@ Below is a short video demonstrating the use and importance of CodeSten:
 
 Document Generated: https://aadiltajani.github.io/CodeSten/
 
-# Why to Use
-
 
 # How to run
 Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
@@ -46,9 +44,6 @@ Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/maste
 
 # Requirements:
 Listed in Requirements.txt
-
-
-
 
 
 # Future Work: 
