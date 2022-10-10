@@ -11,7 +11,7 @@
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
 
-CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters.
+CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters. Additionally, we can implement CodeSten for live audio as well as video in the coming stages.
 
 
 Below is a short video demonstrating the use and importance of CodeSten:
@@ -22,12 +22,24 @@ Below is a short video demonstrating the use and importance of CodeSten:
 Document Generated: https://aadiltajani.github.io/CodeSten/
 
 # How to run
+
+Use the package manager [ffmpeg](https://ffmpeg.org/download.html) and download the appropriate file to install the necessary package. 
+
+Run the following command to start the analysis of the .wav file:
+
 Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
-python AnalysisCode/main.py 
-or can be seen on github actions
+
+```bash
+python AnalysisCode/main.py
+```
+
+Pydub module uses ffmpeg to work on .wav files. After installing the package, add the bin folder path to your environment variable and you should be good to go!
+
 
 # Scope
-Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in .... function
+Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
+
+# Requirements 
 
 
 # Modules Implemented
