@@ -66,6 +66,6 @@ def test_all():
         emotionanalysis(text)
         sentimentanalysis(text)
         getkeywords(text)
-        wordcountss(text_dic)
+        wordcounts(text_dic)
 
 test_all()
