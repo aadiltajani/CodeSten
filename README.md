@@ -40,7 +40,7 @@ Pydub module uses ffmpeg to work on .wav files. After installing the package, ad
 Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
 
 # Requirements 
-
+Please install all the necessary packages as mentioned in the [requirements.txt](https://github.com/aadiltajani/CodeSten/blob/main/requirements.txt) file 
 
 # Modules Implemented
 - Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
