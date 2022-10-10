@@ -38,6 +38,12 @@ Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisC
 python AnalysisCode/main.py
 ```
 
+Run app.py from app folder to open the web GUI for this solution
+
+```bash
+python app/app.py
+```
+
 Pydub module uses ffmpeg to work on .wav files. After installing the package, add the bin folder path to your environment variable and you should be good to go!
 
 
