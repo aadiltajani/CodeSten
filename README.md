@@ -125,3 +125,9 @@ Arpit Choudhary: [Github](https://github.com/ArpitCh21)
 Dhruvish Patel: [Github](https://github.com/Dhruvish-Patel)
 
 Kaustubh Deshpande: [Github](https://github.com/KaustubhKael)
+
+# For Support
+
+Dhruvish Patel: [Email](dhruvishpatel02@gmail.com)
+
+Aadil Tajani: [Email](tajani.aadil@gmail.com)
