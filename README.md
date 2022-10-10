@@ -66,3 +66,16 @@ Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/maste
 - Using GCP, AWS and IBM services to test open source results and compare accuracy
 - Make discord bots/APIs to use this functionality as a service anywhere.
 - Implement scoring conversation based on keyword spotting and filtering conversation
+
+
+# Authors
+
+Aadil Tajani: [Github](https://github.com/aadiltajani)
+
+Aastha Singh: [Github](https://github.com/asingh0404)
+
+Arpit Choudhary: [Github](https://github.com/ArpitCh21)
+
+Dhruvish Patel: [Github](https://github.com/Dhruvish-Patel)
+
+Kaustubh Deshpande: [Github](https://github.com/KaustubhKael)
