@@ -43,7 +43,7 @@ Right now it is working on audio files and any audio file can be given as input 
 Please install all the necessary packages as mentioned in the [requirements.txt](https://github.com/aadiltajani/CodeSten/blob/main/requirements.txt) file 
 
 # Modules Implemented
-- Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
+- ### Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
 
 Function to divide audio file into smaller chunks to be used later for analysis:
 ```bash
@@ -56,35 +56,35 @@ Function to check and read audio file provided:
 def audioinput(file):
 ```
 
-- Speech to Text ([speechtotext.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/speechtotext.py))
+- ### Speech to Text ([speechtotext.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/speechtotext.py))
 
 Function to get text transcription of the audio file. It takes in path for audio chunks and uses Google's open source package speechrecognition to give us transcript of audio and it also works for multiple languages and is pretty accurate considering it is open source and free to use:
 ```bash
 def speech_to_text(path):
 ```
 
-- Sentiment Analysis ([sentimentanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/sentimentanalysis.py))
+- ### Sentiment Analysis ([sentimentanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/sentimentanalysis.py))
 
 Function to detect speaker sentiment from positive, negative and neutral. It takes in text transcript and uses open source module to determine a sentiment for our conversation which gives us a general idea of type of conversation:
 ```bash
 def sentiment_scores(text):
 ```
 
-- Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
+- ### Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
 
 Function to detect speaker emotion There are mainly 5 emotions: happy, sad, fear, angry, and surprise. This function takes text transcript as input and uses open source package text2emotion to determine emotion from text which can be helpful in certain analysis:
 ```bash
 def emotion_detection(text):
 ```
 
-- Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
+- ### Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
 
 Function to get main keywords from the conversation This function takes all the keywords from text input and filters them by removing all the useless stopwords and gives us important keywords from the conversation and we can get imp points from the conversation:
 ```bash
 def getkewords(text):
 ```
 
-- Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
+- ### Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
 
 Function to get word counts from the conversation. It takes text as input and counts the number of words which can be later used to determine speech rate of speaker as low/medium/fast or for some statistical analysis:
 ```bash
@@ -95,7 +95,7 @@ def wordcount(text_dic):
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
 
 
-# Future Work: ([Link to GitHub todo list](https://github.com/users/aadiltajani/projects/1))
+# Future Work ([Link to GitHub todo list](https://github.com/users/aadiltajani/projects/1))
 - Implement Video emotion analysis and combine with audio analysis done here
 - Silence detection
 - Determine Speech Rate of speaker (slow, medium, fast)
