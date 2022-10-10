@@ -1,3 +1,4 @@
+# __author__      = "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
 import yake
 # from yake.highlight import TextHighlighter
 import os
