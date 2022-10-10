@@ -9,11 +9,15 @@
 [![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)](https://www.jetbrains.com/idea/)
 [![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)](https://www.gnu.org/software/bash/)
 
-CodeSten is Project1 for Group19 of CSC510 Software Engineering
+CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
+
+CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters.
+
+Below is a short video demonstrating the use and importance of CodeSten:
+
 
 [![Watch the video](https://img.youtube.com/vi/yO7Ruh07uh8/hqdefault.jpg)](https://www.youtube.com/watch?v=yO7Ruh07uh8&ab_channel=AadilTajani)
 
-# Description
 Document Generated: https://aadiltajani.github.io/CodeSten/
 
 # Why to Use
