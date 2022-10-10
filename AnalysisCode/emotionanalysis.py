@@ -11,6 +11,12 @@ nltk.download('omw-1.4')
 def emotion_detection(text):
     """
     function to detect speaker emotion
+    There are mainly 5 emotions: happy, sad,
+    fear, angry, and surprise.
+    This function takes text transcript as input
+    and uses open source package text2emotion to
+    determine emotion from text which can
+    be helpful in certain analysis
     """
     emotionval = te.get_emotion(text)
     # print(emotionval.get('Happy'))
