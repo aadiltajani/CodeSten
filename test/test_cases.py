@@ -51,7 +51,7 @@ def getkeywords(text):
     except:
         print("Test Keywords extraction failed")
 
-def wordcount(text_dic):
+def testwordcount(text_dic):
     print("\n\nTesting Words count")
     try:
         print('Keywords:', wordcount(text_dic))
@@ -66,6 +66,6 @@ def test_all():
         emotionanalysis(text)
         sentimentanalysis(text)
         getkeywords(text)
-        wordcount(text_dic)
+        testwordcount(text_dic)
 
 test_all()
