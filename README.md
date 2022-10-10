@@ -64,6 +64,12 @@ def speech_to_text(path):
 ```
 
 - Sentiment Analysis ([sentimentanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/sentimentanalysis.py))
+
+Function to detect speaker sentiment from positive, negative and neutral. It takes in text transcript and uses open source module to determine a sentiment for our conversation which gives us a general idea of type of conversation:
+```bash
+def sentiment_scores(text):
+```
+
 - Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
 - Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
 - Word Count ([wordcount.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/wordcount.py))
