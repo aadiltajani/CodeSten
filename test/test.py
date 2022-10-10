@@ -3,7 +3,7 @@ test file which tests all the modules
 """
 from os import listdir
 import sys
-sys.path.append('../AnalysisCode')
+sys.path.append('./AnalysisCode')
 from emotionanalysis import emotion_detection  # noqa: E402
 from readaudio import audioinput  # noqa: E402
 from speechtotext import speech_to_text  # noqa: E402
