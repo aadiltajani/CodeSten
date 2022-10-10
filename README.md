@@ -10,6 +10,9 @@
 [![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ffffff)](https://www.gnu.org/software/bash/)
 ![Lines of code](https://img.shields.io/tokei/lines/github/aadiltajani/CodeSten)
 ![GitHub contributors](https://img.shields.io/github/contributors/aadiltajani/CodeSten)
+![GitHub language count](https://img.shields.io/github/languages/count/aadiltajani/CodeSten)
+![GitHub issues](https://img.shields.io/github/issues/aadiltajani/CodeSten)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/aadiltajani/CodeSten)
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
 
