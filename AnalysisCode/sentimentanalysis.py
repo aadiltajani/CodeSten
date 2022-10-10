@@ -14,7 +14,10 @@ stop_words = set(stopwords.words('english'))
 
 def sentiment_scores(text):
     """
-    function to detect speaker sentiment from positive, negative and neutral
+    function to detect speaker sentiment from positive, negative and neutral.
+    It takes in text transcript and uses open source module to determine
+    a sentiment for our conversation which gives us a general idea of
+    type of conversation
     """
     if len(text) == 0:
         sentiment_ = ""
