@@ -16,7 +16,7 @@
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
 
-CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters and its completely free. Additionally, we can implement CodeSten for live audio as well as video in the coming stages.
+CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters and its completely free. Additionally, we can implement CodeSten for live audio as well as video in the coming stages. It also comes with a web GUI.
 
 
 Below is a short video demonstrating the use and importance of CodeSten:
