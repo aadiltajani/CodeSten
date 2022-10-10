@@ -1,5 +1,5 @@
-# from speechtotext import speech_to_text
-
+# __author__      = "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
+# __copyright__      = "Open source libraries"
 
 def wordcount(text_dic):
     """
