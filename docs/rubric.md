@@ -1,4 +1,4 @@
-**Self Assessment of SE Group 19 Members.**   
+**Self Assessment of SE Group 19 Project 1.**   
 
 |Notes|Self Assessment Summation|Supporting Evidence|
 |:----------------------------------------------------------------|:----------------------------------------------|:-------------------------------|
