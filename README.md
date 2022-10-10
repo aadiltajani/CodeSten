@@ -28,7 +28,7 @@ Document Generated: https://aadiltajani.github.io/CodeSten/
 
 # How to run
 
-Use the package manager [ffmpeg](https://ffmpeg.org/download.html) and download the appropriate file to install the necessary package. 
+Use the package manager [ffmpeg](https://ffmpeg.org/download.html) and download the appropriate file to install the necessary package. Place the audio file in data/audiofiles folder in wav format. Mention the wav file in main.py file.
 
 Run the following command to start the analysis of the .wav file:
 
