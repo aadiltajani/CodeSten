@@ -13,6 +13,11 @@ with open(os.path.join(os.path.dirname(__file__),
 def getkewords(text):
     """
     function to get main keywords from the conversation
+    This function takes all the keywords from text input
+    and filters them by removing all the useless
+    stopwords and gives us important keywords
+    from the conversation and we can get imp
+    points from the conversation
     """
     language = "en"
     max_ngram_size = 2

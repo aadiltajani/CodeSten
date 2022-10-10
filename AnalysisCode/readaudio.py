@@ -11,7 +11,11 @@ script_dir = os.path.dirname(__file__)
 def trim_audio_file(path):
     """
     function to divide audio file into smaller chunks
-    to be used later for analysis
+    to be used later for analysis. I takes a whole audio
+    file in wav format and splits it into 10 second chunks
+    and stores it in chunks folder so our opensource
+    apis can work on it without giving us file
+    duration issues
     """
     path = os.path.join(script_dir, path)
     folder_name = os.path.join(script_dir, r"../data/chunks")
@@ -31,7 +35,9 @@ def trim_audio_file(path):
 
 def audioinput(file):
     """
-    function to check and read audio file provided
+    function to check and read audio file provided. It takes
+    in audio file and checks if it exists and if the
+    duration is sensible and sends it to be divided in chunks.
     """
     if isinstance(file, str):
         file = os.path.realpath(os.path.join(script_dir, file))

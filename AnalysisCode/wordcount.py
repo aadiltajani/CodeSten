@@ -3,7 +3,10 @@
 
 def wordcount(text_dic):
     """
-    function to get word counts from the conversation
+    function to get word counts from the conversation. It takes text
+    as input and counts the number of words which can be later used to
+    determine speech rate of speaker as low/medium/fast or for some
+    statistical analysis.
     """
     countval = 0
     for i in text_dic.values():

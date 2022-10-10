@@ -11,7 +11,7 @@
 
 CodeSten is Project1 for Group19 of CSC510 Software Engineering. 
 
-CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters.
+CodeSten is the uncompromising stenography tool. It gives you speed, determinism, and freedom from depending upon memory or note-taking while having important conversations. You will save time and mental energy for more important matters. Additionally, we can implement CodeSten for live audio as well as video in the coming stages.
 
 
 Below is a short video demonstrating the use and importance of CodeSten:
@@ -22,17 +22,47 @@ Below is a short video demonstrating the use and importance of CodeSten:
 Document Generated: https://aadiltajani.github.io/CodeSten/
 
 # How to run
+
+Use the package manager [ffmpeg](https://ffmpeg.org/download.html) and download the appropriate file to install the necessary package. 
+
+Run the following command to start the analysis of the .wav file:
+
 Main file: [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
-python AnalysisCode/main.py 
-or can be seen on github actions
+
+```bash
+python AnalysisCode/main.py
+```
+
+Pydub module uses ffmpeg to work on .wav files. After installing the package, add the bin folder path to your environment variable and you should be good to go!
+
 
 # Scope
-Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in .... function
+Right now it is working on audio files and any audio file can be given as input as long it is in .wav format. Just place the audio file in data/audiofiles and mention the name in [main.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/main.py)
 
+# Requirements 
+Please install all the necessary packages as mentioned in the [requirements.txt](https://github.com/aadiltajani/CodeSten/blob/main/requirements.txt) file 
 
 # Modules Implemented
 - Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
+
+Function to divide audio file into smaller chunks to be used later for analysis:
+```bash
+def trim_audio_file(path):
+```
+
+
+Function to check and read audio file provided:
+```bash
+def audioinput(file):
+```
+
 - Speech to Text ([speechtotext.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/speechtotext.py))
+
+Function to get text transcription of the audio file. It takes in path for audio chunks and uses Google's open source package speechrecognition to give us transcript of audio and it also works for multiple languages and is pretty accurate considering it is open source and free to use:
+```bash
+def speech_to_text(path):
+```
+
 - Sentiment Analysis ([sentimentanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/sentimentanalysis.py))
 - Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
 - Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
@@ -42,7 +72,7 @@ Right now it is working on audio files and any audio file can be given as input 
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
 
 
-# Future Work: 
+# Future Work: ([Link to GitHub todo list](https://github.com/users/aadiltajani/projects/1))
 - Implement Video emotion analysis and combine with audio analysis done here
 - Silence detection
 - Determine Speech Rate of speaker (slow, medium, fast)
@@ -54,3 +84,16 @@ Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/maste
 - Using GCP, AWS and IBM services to test open source results and compare accuracy
 - Make discord bots/APIs to use this functionality as a service anywhere.
 - Implement scoring conversation based on keyword spotting and filtering conversation
+
+
+# Authors
+
+Aadil Tajani: [Github](https://github.com/aadiltajani)
+
+Aastha Singh: [Github](https://github.com/asingh0404)
+
+Arpit Choudhary: [Github](https://github.com/ArpitCh21)
+
+Dhruvish Patel: [Github](https://github.com/Dhruvish-Patel)
+
+Kaustubh Deshpande: [Github](https://github.com/KaustubhKael)
