@@ -1,5 +1,6 @@
 # __author__      =
-# "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
+# "Aadil Tajani, Dhruvish Patel,
+# Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
 # __copyright__      = "Open source libraries"
 import shutil
 from pydub import AudioSegment
