@@ -1,3 +1,4 @@
+# __author__      = "Aadil Tajani, Dhruvish Patel, Kaustubh Deshpande, Aastha Singh, Arpit Chaudhary"
 import os
 import speech_recognition as sr
 r = sr.Recognizer()
