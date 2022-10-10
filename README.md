@@ -44,7 +44,25 @@ Please install all the necessary packages as mentioned in the [requirements.txt]
 
 # Modules Implemented
 - Read Audio File ([readaudio.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/readaudio.py))
+
+Function to divide audio file into smaller chunks to be used later for analysis:
+```bash
+def trim_audio_file(path):
+```
+
+
+Function to check and read audio file provided:
+```bash
+def audioinput(file):
+```
+
 - Speech to Text ([speechtotext.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/speechtotext.py))
+
+Function to get text transcription of the audio file. It takes in path for audio chunks and uses Google's open source package speechrecognition to give us transcript of audio and it also works for multiple languages and is pretty accurate considering it is open source and free to use:
+```bash
+def speech_to_text(path):
+```
+
 - Sentiment Analysis ([sentimentanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/sentimentanalysis.py))
 - Emotion Analysis ([emotionanalysis.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/emotionanalysis.py))
 - Keyword Extraction ([keywordextract.py](https://github.com/aadiltajani/CodeSten/blob/main/AnalysisCode/keywordextract.py))
