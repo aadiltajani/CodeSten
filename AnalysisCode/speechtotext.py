@@ -7,7 +7,12 @@ script_dir = os.path.dirname(__file__)
 
 def speech_to_text(path):
     """
-    function to get text transcription of the audio file
+    function to get text transcription of the audio file.
+    It takes in path for audio chunks and uses Google's
+    open source package
+    speechrecognition to give us transcript of audio and it
+    also works for multiple languages and is pretty accurate
+    considering it is open source and free to use.
     """
     path = os.path.join(script_dir, path)
     finaltext = {}
