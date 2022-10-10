@@ -54,7 +54,7 @@ Please install all the necessary packages as mentioned in the [requirements.txt]
 Link: https://github.com/cricketclub/gridspace-stanford-harper-valley/tree/master/data/audio
 
 
-# Future Work: 
+# Future Work: ([Link to GitHub todo list](https://github.com/users/aadiltajani/projects/1))
 - Implement Video emotion analysis and combine with audio analysis done here
 - Silence detection
 - Determine Speech Rate of speaker (slow, medium, fast)
